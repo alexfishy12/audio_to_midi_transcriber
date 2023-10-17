@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 16
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MIDI transcriber - Standalone Plugin", "MIDI transcriber_StandalonePlugin.vcxproj", "{2EB346EF-73A6-BF6B-6205-899D53FE91B1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B24A1864-92F7-5047-6313-5C99685BDBC7} = {B24A1864-92F7-5047-6313-5C99685BDBC7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MIDI transcriber - VST3", "MIDI transcriber_VST3.vcxproj", "{18154C1B-2EBB-D474-DA50-EC2BD5E85969}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B24A1864-92F7-5047-6313-5C99685BDBC7} = {B24A1864-92F7-5047-6313-5C99685BDBC7}
+		{167EA44E-9194-2978-4727-4165B27FE22B} = {167EA44E-9194-2978-4727-4165B27FE22B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MIDI transcriber - Shared Code", "MIDI transcriber_SharedCode.vcxproj", "{B24A1864-92F7-5047-6313-5C99685BDBC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MIDI transcriber - VST3 Manifest Helper", "MIDI transcriber_VST3ManifestHelper.vcxproj", "{167EA44E-9194-2978-4727-4165B27FE22B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18154C1B-2EBB-D474-DA50-EC2BD5E85969}.Debug|x64.ActiveCfg = Debug|x64
+		{18154C1B-2EBB-D474-DA50-EC2BD5E85969}.Debug|x64.Build.0 = Debug|x64
+		{18154C1B-2EBB-D474-DA50-EC2BD5E85969}.Release|x64.ActiveCfg = Release|x64
+		{18154C1B-2EBB-D474-DA50-EC2BD5E85969}.Release|x64.Build.0 = Release|x64
+		{2EB346EF-73A6-BF6B-6205-899D53FE91B1}.Debug|x64.ActiveCfg = Debug|x64
+		{2EB346EF-73A6-BF6B-6205-899D53FE91B1}.Debug|x64.Build.0 = Debug|x64
+		{2EB346EF-73A6-BF6B-6205-899D53FE91B1}.Release|x64.ActiveCfg = Release|x64
+		{2EB346EF-73A6-BF6B-6205-899D53FE91B1}.Release|x64.Build.0 = Release|x64
+		{B24A1864-92F7-5047-6313-5C99685BDBC7}.Debug|x64.ActiveCfg = Debug|x64
+		{B24A1864-92F7-5047-6313-5C99685BDBC7}.Debug|x64.Build.0 = Debug|x64
+		{B24A1864-92F7-5047-6313-5C99685BDBC7}.Release|x64.ActiveCfg = Release|x64
+		{B24A1864-92F7-5047-6313-5C99685BDBC7}.Release|x64.Build.0 = Release|x64
+		{167EA44E-9194-2978-4727-4165B27FE22B}.Debug|x64.ActiveCfg = Debug|x64
+		{167EA44E-9194-2978-4727-4165B27FE22B}.Debug|x64.Build.0 = Debug|x64
+		{167EA44E-9194-2978-4727-4165B27FE22B}.Release|x64.ActiveCfg = Release|x64
+		{167EA44E-9194-2978-4727-4165B27FE22B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
