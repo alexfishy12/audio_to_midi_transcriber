@@ -34,7 +34,7 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 - Front-end: HTML, CSS (with Bootstrap), Javascript
 - Backend: Docker, Python, FastAPI, Tensorflow ML Framework
 
-## What I Learned
+## What We Learned
 - **Fundamentals of TensorFlow**: How to use TensorFlow ML Framework to build data processing pipelines for ML training.
 - **Containerization**: How to dockerize software including all of its dependencies for easier portability.
 - **Implementing AI into a web application**: Used FastAPI to interface with Python backend to run model and produce MIDI predictions.
@@ -65,18 +65,20 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
 
 ## Code Examples
-*Show small, but significant snippets of code from your project.*
-
-## How to Contribute
-*Encourage contributions and provide guidelines for how others can help.*
+- **MIDI Prediction Function (credits to [Spotify Basic Pitch](https://github.com/spotify/basic-pitch))**: `predict_and_save(model_path=model_path, output_directory=TEMP_FILE_STORAGE_PATH, audio_path_list=[audio_file], save_midi=True, sonify_midi=False, save_model_outputs=False, save_notes=False)`
+- **Model Training Code**: `model_train.fit(train_dataset, validation_data=val_dataset, epochs=num_epochs, batch_size=16)`
 
 ## License
 *State the license under which your project is available.*
 
 ## Contact
-*Your contact information or links to your professional profiles like LinkedIn.*
+- Alexander J. Fisher
+  - **Email**: alexfisher0330@gmail.com
+  - **LinkedIn**: www.linkedin.com/in/alexjfisher
+- Kevin Parra-Olmedo
+  - **Email**: parraolk@kean.edu 
 
 ## Acknowledgments
-*Credits to individuals or resources that helped you during the project.*
+We would like to thank Kuan Huang, Ph.D. (khuang@kean.edu) who advised us during our Independent Study for this project.
 
 ---
