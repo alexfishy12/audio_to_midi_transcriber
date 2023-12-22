@@ -41,11 +41,11 @@ Highlight specific skills or concepts you learned or improved upon while working
 
 ## Setup and Installation (using Docker)
 1. Clone the repo: `git clone [URL]`
-2. Build docker image (installs dependencies into image automatically with Dockerfile):
-    - `docker build -t [IMAGE_TAG] .`
-3. Run a docker container of the built image:
-    - `docker run -p 8000:8000 [IMAGE_TAG]`
-4. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
+2. Download and install Docker:
+   - Windows:  https://docs.docker.com/desktop/install/windows-install/
+   - macOS: https://docs.docker.com/desktop/install/mac-install/
+   - Linux: `https://docs.docker.com/desktop/install/linux-install/`
+3. Build docker image: `docker build -t [IMAGE_TAG] [REPOSITORY_DIRECTORY]`
  
 ## Setup and Installation (using virtualenv)
 1. Clone the repo: `git clone [URL]`
@@ -54,11 +54,14 @@ Highlight specific skills or concepts you learned or improved upon while working
     - `virtualenv [ENVIRONMENT_NAME]`
     - Windows: `.\[ENVIRONMENT_NAME]\Scripts\activate` || Unix/Mac: `source [ENVIRONMENT_NAME]/bin/activate`
 4. Install dependencies: `pip install requirements.txt`
-5. Run python backend: `python src/app.py`
-6. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
 
-## Usage
-*Guide on how to use the project, include example commands or scripts.*
+## Usage (using Docker)
+1. Run a docker container of the built image: `docker run -p 8000:8000 [IMAGE_TAG]`
+2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
+
+## Usage (using virtualenv)
+1. Run python backend: `python src/app.py`
+2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
 
 ## Code Examples
 *Show small, but significant snippets of code from your project.*
