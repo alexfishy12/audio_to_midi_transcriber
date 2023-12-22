@@ -42,12 +42,15 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 
 <br>
 
+## Setup and Installation
+
 *[NOTE]: Choose one of the following two sections for setup, installation, and usage of the project (**Docker** or **Virtualenv**)*
-## Docker
+
+### Docker
 <details open>
 <summary>Set up, installation, and usage</summary>
   
-### Setup and Installation
+#### Setup and Installation
 1. Clone the repo: `git clone https://github.com/alexfishy12/audio_to_midi_transcriber.git`
 2. Download and install Docker:
    - Windows:  https://docs.docker.com/desktop/install/windows-install/
@@ -55,17 +58,17 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
    - Linux: https://docs.docker.com/desktop/install/linux-install/
 3. Build docker image: `docker build -t [IMAGE_TAG] [REPOSITORY_DIRECTORY]`
 
-### Usage
+#### Usage
 1. Run a docker container of the built image: `docker run -p 8000:8000 [IMAGE_TAG]`
 2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
 
 </details>
 
-## Virtualenv
+### Virtualenv
 <details>
 <summary>Set up, installation, and usage</summary>
 
-### Setup and Installation
+#### Setup and Installation
 1. Clone the repo: `git clone https://github.com/alexfishy12/audio_to_midi_transcriber.git`
 2. Create and activate virtual environment:
     - `pip install virtualenv`
@@ -73,7 +76,7 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
     - Windows: `.\[ENVIRONMENT_NAME]\Scripts\activate` || Unix/Mac: `source [ENVIRONMENT_NAME]/bin/activate`
 4. Install dependencies: `pip install requirements.txt`
 
-### Usage
+#### Usage
 1. Run python backend: `python src/app.py`
 2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
 
