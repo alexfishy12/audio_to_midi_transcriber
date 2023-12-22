@@ -40,15 +40,32 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 - **Implementing AI into a web application**: Used FastAPI to interface with Python backend to run model and produce MIDI predictions.
 - **Audio data processing**: How to extract, transform, and load audio data and process it to enable a machine learning model to perform transcription training and prediction
 
-## Setup and Installation (using Docker)
+<br>
+
+*[NOTE]: Choose one of the following two sections for setup, installation, and usage of the project (**Docker** or **Virtualenv**)*
+## Docker
+<details open>
+<summary>Set up, installation, and usage</summary>
+  
+### Setup and Installation
 1. Clone the repo: `git clone https://github.com/alexfishy12/audio_to_midi_transcriber.git`
 2. Download and install Docker:
    - Windows:  https://docs.docker.com/desktop/install/windows-install/
    - macOS: https://docs.docker.com/desktop/install/mac-install/
    - Linux: https://docs.docker.com/desktop/install/linux-install/
 3. Build docker image: `docker build -t [IMAGE_TAG] [REPOSITORY_DIRECTORY]`
- 
-## Setup and Installation (using virtualenv)
+
+### Usage
+1. Run a docker container of the built image: `docker run -p 8000:8000 [IMAGE_TAG]`
+2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
+
+</details>
+
+## Virtualenv
+<details>
+<summary>Set up, installation, and usage</summary>
+
+### Setup and Installation
 1. Clone the repo: `git clone https://github.com/alexfishy12/audio_to_midi_transcriber.git`
 2. Create and activate virtual environment:
     - `pip install virtualenv`
@@ -56,13 +73,11 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
     - Windows: `.\[ENVIRONMENT_NAME]\Scripts\activate` || Unix/Mac: `source [ENVIRONMENT_NAME]/bin/activate`
 4. Install dependencies: `pip install requirements.txt`
 
-## Usage (using Docker)
-1. Run a docker container of the built image: `docker run -p 8000:8000 [IMAGE_TAG]`
-2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
-
-## Usage (using virtualenv)
+### Usage
 1. Run python backend: `python src/app.py`
 2. Use a local hosting tool like XAMPP or NGINX to host a web server and run the webpage in a browser
+
+</details>
 
 ## Code Examples
 - **MIDI Prediction Function (credits to [Spotify Basic Pitch](https://github.com/spotify/basic-pitch))**: `predict_and_save(model_path=model_path, output_directory=TEMP_FILE_STORAGE_PATH, audio_path_list=[audio_file], save_midi=True, sonify_midi=False, save_model_outputs=False, save_notes=False)`
