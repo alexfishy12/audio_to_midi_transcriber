@@ -87,10 +87,11 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 *State the license under which your project is available.*
 
 ## Contact
-- Alexander J. Fisher
+Alexander J. Fisher
   - **Email**: alexfisher0330@gmail.com
   - **LinkedIn**: www.linkedin.com/in/alexjfisher
-- Kevin Parra-Olmedo
+
+Kevin Parra-Olmedo
   - **Email**: parraolk@kean.edu 
 
 ## Acknowledgments
