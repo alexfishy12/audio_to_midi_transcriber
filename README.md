@@ -38,7 +38,7 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 - **Fundamentals of TensorFlow**: How to use TensorFlow ML Framework to build data processing pipelines for ML training.
 - **Containerization**: How to dockerize software including all of its dependencies for easier portability.
 - **Implementing AI into a web application**: Used FastAPI to interface with Python backend to run model and produce MIDI predictions.
-- **Audio data processing**: How to extract, transform, and load audio data and process it to enable a machine learning model to perform transcription training and prediction
+- **Audio data processing**: How to extract, transform, and load audio data and process it to enable a machine learning model to perform audio to MIDI transcription training and prediction
 
 <br>
 
