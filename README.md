@@ -35,20 +35,21 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 - Backend: Docker, Python, FastAPI, Tensorflow ML Framework
 
 ## What I Learned
-Highlight specific skills or concepts you learned or improved upon while working on this project. This section should directly address potential employer interests.
+- **Fundamentals of TensorFlow**: How to use TensorFlow ML Framework to build data processing pipelines for ML training.
 - **Containerization**: How to dockerize software including all of its dependencies for easier portability.
 - **Implementing AI into a web application**: Used FastAPI to interface with Python backend to run model and produce MIDI predictions.
+- **Audio data processing**: How to extract, transform, and load audio data and process it to enable a machine learning model to perform transcription training and prediction
 
 ## Setup and Installation (using Docker)
-1. Clone the repo: `git clone [URL]`
+1. Clone the repo: `git clone https://github.com/alexfishy12/audio_to_midi_transcriber.git`
 2. Download and install Docker:
    - Windows:  https://docs.docker.com/desktop/install/windows-install/
    - macOS: https://docs.docker.com/desktop/install/mac-install/
-   - Linux: `https://docs.docker.com/desktop/install/linux-install/`
+   - Linux: https://docs.docker.com/desktop/install/linux-install/
 3. Build docker image: `docker build -t [IMAGE_TAG] [REPOSITORY_DIRECTORY]`
  
 ## Setup and Installation (using virtualenv)
-1. Clone the repo: `git clone [URL]`
+1. Clone the repo: `git clone https://github.com/alexfishy12/audio_to_midi_transcriber.git`
 2. Create and activate virtual environment:
     - `pip install virtualenv`
     - `virtualenv [ENVIRONMENT_NAME]`
