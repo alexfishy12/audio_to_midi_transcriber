@@ -11,10 +11,9 @@
 6. [Setup, Installation, and Usage](#setup-installation-and-usage)
 7. [Usage](#usage)
 8. [Code Examples](#code-examples)
-9. [How to Contribute](#how-to-contribute)
-10. [License](#license)
-11. [Contact](#contact)
-12. [Acknowledgments](#acknowledgments)
+9. [License](#license)
+10. [Contact](#contact)
+11. [Acknowledgments](#acknowledgments)
 
 </details>
 
