@@ -7,8 +7,8 @@
 2. [Features](#features)
 3. [Visuals](#visuals)
 4. [Technologies](#technologies)
-5. [What I Learned](#what-i-learned)
-6. [Setup and Installation](#setup-and-installation)
+5. [What We Learned](#what-we-learned)
+6. [Setup, Installation, and Usage](#setup-installation-and-usage)
 7. [Usage](#usage)
 8. [Code Examples](#code-examples)
 9. [How to Contribute](#how-to-contribute)
@@ -42,7 +42,7 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 
 <br>
 
-## Setup and Installation
+## Setup, Installation, and Usage
 
 *[NOTE]: Choose one of the following two sections for setup, installation, and usage of the project (**Docker** or **Virtualenv**)*
 
