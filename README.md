@@ -39,8 +39,6 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 - **Implementing AI into a web application**: Used FastAPI to interface with Python backend to run model and produce MIDI predictions.
 - **Audio data processing**: How to extract, transform, and load audio data and process it to enable a machine learning model to perform audio to MIDI transcription training and prediction
 
-<br>
-
 ## Setup, Installation, and Usage
 
 *[NOTE]: Choose one of the following two sections for setup, installation, and usage of the project (**Docker** or **Virtualenv**)*
