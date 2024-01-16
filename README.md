@@ -93,7 +93,7 @@ Alexander J. Fisher
 
 Kevin Parra-Olmedo
   - **Email**: parraolk@kean.edu
-  - **LinkedIn: www.linkedin.com/in/kevin-parra-5823401b8
+  - **LinkedIn**: www.linkedin.com/in/kevin-parra-5823401b8
 
 ## Acknowledgments
 We would like to thank Kuan Huang, Ph.D. (khuang@kean.edu) who advised us during our Independent Study for this project.
