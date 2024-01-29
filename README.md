@@ -27,7 +27,12 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
 - **Download MIDI Transcription**: A button to download the transcribed MIDI file.
 
 ## Visuals
-*Insert images or gifs showing your project in action. Consider before/after shots, workflows, or demos.*
+<p float="left">
+  <img src="https://raw.githubusercontent.com/alexfishy12/audio_to_midi_transcriber/main/screenshots/choose_file.png" width="100%" />
+</p>
+<p float="left">
+  <img src="https://raw.githubusercontent.com/alexfishy12/audio_to_midi_transcriber/main/screenshots/generated_midi.png" width="100%" />
+</p>
 
 ## Technologies
 - Front-end: HTML, CSS (with Bootstrap), Javascript
