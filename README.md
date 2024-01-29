@@ -34,6 +34,10 @@ A web application that automatically transcribes audio (.mp3 format) to MIDI not
   <img src="https://raw.githubusercontent.com/alexfishy12/audio_to_midi_transcriber/main/screenshots/generated_midi.png" width="100%" />
 </p>
 
+## Documentation
+- [Final Presentation Slides](web/_assets/AI%20Audio%20to%20MIDI%20Transcriber.pdf)
+- [Final Paper](web/_assets/Convolutional_Neural_Network_Based_Approach_for_MIDI_Transcription_from_Raw_Audio.pdf)
+
 ## Technologies
 - Front-end: HTML, CSS (with Bootstrap), Javascript
 - Backend: Docker, Python, FastAPI, Tensorflow ML Framework
